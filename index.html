@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Relojería — Directorio por Nivel</title>
+<style>
+  :root{
+    --bg:#0a0d12;
+    --surface:#12161f;
+    --surface-2:#171c27;
+    --border:#232a3a;
+    --text:#eef1f6;
+    --text-dim:#8a93a8;
+    --text-faint:#5b6478;
+    --teal:#37e8c4;
+    --blue:#6c8ef5;
+    --coral:#f0805a;
+    --violet:#b98af0;
+    --amber:#f2c94c;
+    --rose:#f27ab2;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;}
+  a{color:inherit;text-decoration:none;}
+  .site-card{transition:border-color .15s ease;}
+  .site-card:hover{border-color:var(--card-accent, var(--teal));}
+  .url-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}
+  .card-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;}
+  .wrap{width:100%;min-height:100vh;background:var(--bg);padding:56px 64px 80px;display:flex;flex-direction:column;gap:44px;}
+  @media (max-width:640px){ .wrap{padding:32px 20px 56px;gap:32px;} .card-grid{grid-template-columns:1fr 1fr;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div style="display: flex; flex-direction: column; gap: 16px;">
+    <div style="font-size: 13px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--teal);">Directorio de Referencia</div>
+    <h1 style="margin: 0; font-size: 36px; font-weight: 700; color: var(--text); letter-spacing: -0.01em;">Relojería — por nivel</h1>
+    <div style="font-size: 15px; color: var(--text-dim); max-width: 640px; line-height: 1.5;">38 marcas agrupadas en 5 niveles, de entrada accesible a alta relojería independiente. Sitio de prueba para despliegue vía GitHub Pages.</div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 18px;">
+    <h2 style="margin: 0; font-size: 19px; font-weight: 700; color: var(--text); display: flex; align-items: center; gap: 10px;"><span style="width:8px;height:8px;border-radius:999px;background:var(--teal);display:inline-block;"></span>Lujo de entrada / accesible</h2>
+    <div class="card-grid">
+      <a class="site-card" href="https://www.tagheuer.com" target="_blank" rel="noopener" style="--card-accent: var(--teal); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">TAG Heuer</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--teal); margin-top: 6px;">tagheuer.com</div>
+      </a>
+      <a class="site-card" href="https://www.longines.com" target="_blank" rel="noopener" style="--card-accent: var(--teal); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Longines</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--teal); margin-top: 6px;">longines.com</div>
+      </a>
+      <a class="site-card" href="https://www.tissotwatches.com" target="_blank" rel="noopener" style="--card-accent: var(--teal); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Tissot</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--teal); margin-top: 6px;">tissotwatches.com</div>
+      </a>
+      <a class="site-card" href="https://www.baume-et-mercier.com" target="_blank" rel="noopener" style="--card-accent: var(--teal); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Baume &amp; Mercier</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--teal); margin-top: 6px;">baume-et-mercier.com</div>
+      </a>
+      <a class="site-card" href="https://www.montblanc.com" target="_blank" rel="noopener" style="--card-accent: var(--teal); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Montblanc</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--teal); margin-top: 6px;">montblanc.com</div>
+      </a>
+      <a class="site-card" href="https://www.oris.ch" target="_blank" rel="noopener" style="--card-accent: var(--teal); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Oris</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--teal); margin-top: 6px;">oris.ch</div>
+      </a>
+      <a class="site-card" href="https://www.zenith-watches.com" target="_blank" rel="noopener" style="--card-accent: var(--teal); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Zenith</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--teal); margin-top: 6px;">zenith-watches.com</div>
+      </a>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 18px;">
+    <h2 style="margin: 0; font-size: 19px; font-weight: 700; color: var(--text); display: flex; align-items: center; gap: 10px;"><span style="width:8px;height:8px;border-radius:999px;background:var(--blue);display:inline-block;"></span>Lujo establecido / manufacturas grandes</h2>
+    <div class="card-grid">
+      <a class="site-card" href="https://www.rolex.com" target="_blank" rel="noopener" style="--card-accent: var(--blue); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Rolex</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--blue); margin-top: 6px;">rolex.com</div>
+      </a>
+      <a class="site-card" href="https://www.omegawatches.com" target="_blank" rel="noopener" style="--card-accent: var(--blue); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Omega</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--blue); margin-top: 6px;">omegawatches.com</div>
+      </a>
+      <a class="site-card" href="https://www.breitling.com" target="_blank" rel="noopener" style="--card-accent: var(--blue); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Breitling</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--blue); margin-top: 6px;">breitling.com</div>
+      </a>
+      <a class="site-card" href="https://www.iwc.com" target="_blank" rel="noopener" style="--card-accent: var(--blue); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">IWC Schaffhausen</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--blue); margin-top: 6px;">iwc.com</div>
+      </a>
+      <a class="site-card" href="https://www.jaeger-lecoultre.com" target="_blank" rel="noopener" style="--card-accent: var(--blue); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Jaeger-LeCoultre</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--blue); margin-top: 6px;">jaeger-lecoultre.com</div>
+      </a>
+      <a class="site-card" href="https://www.panerai.com" target="_blank" rel="noopener" style="--card-accent: var(--blue); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Panerai</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--blue); margin-top: 6px;">panerai.com</div>
+      </a>
+      <a class="site-card" href="https://www.cartier.com" target="_blank" rel="noopener" style="--card-accent: var(--blue); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Cartier</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--blue); margin-top: 6px;">cartier.com</div>
+      </a>
+      <a class="site-card" href="https://www.chopard.com" target="_blank" rel="noopener" style="--card-accent: var(--blue); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Chopard</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--blue); margin-top: 6px;">chopard.com</div>
+      </a>
+      <a class="site-card" href="https://www.hublot.com" target="_blank" rel="noopener" style="--card-accent: var(--blue); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Hublot</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--blue); margin-top: 6px;">hublot.com</div>
+      </a>
+      <a class="site-card" href="https://www.bellross.com" target="_blank" rel="noopener" style="--card-accent: var(--blue); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Bell &amp; Ross</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--blue); margin-top: 6px;">bellross.com</div>
+      </a>
+      <a class="site-card" href="https://www.girard-perregaux.com" target="_blank" rel="noopener" style="--card-accent: var(--blue); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Girard-Perregaux</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--blue); margin-top: 6px;">girard-perregaux.com</div>
+      </a>
+      <a class="site-card" href="https://www.ulysse-nardin.com" target="_blank" rel="noopener" style="--card-accent: var(--blue); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Ulysse Nardin</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--blue); margin-top: 6px;">ulysse-nardin.com</div>
+      </a>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 18px;">
+    <h2 style="margin: 0; font-size: 19px; font-weight: 700; color: var(--text); display: flex; align-items: center; gap: 10px;"><span style="width:8px;height:8px;border-radius:999px;background:var(--amber);display:inline-block;"></span>Alta relojería / haute horlogerie</h2>
+    <div class="card-grid">
+      <a class="site-card" href="https://www.patek.com" target="_blank" rel="noopener" style="--card-accent: var(--amber); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Patek Philippe</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--amber); margin-top: 6px;">patek.com</div>
+      </a>
+      <a class="site-card" href="https://www.audemarspiguet.com" target="_blank" rel="noopener" style="--card-accent: var(--amber); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Audemars Piguet</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--amber); margin-top: 6px;">audemarspiguet.com</div>
+      </a>
+      <a class="site-card" href="https://www.vacheron-constantin.com" target="_blank" rel="noopener" style="--card-accent: var(--amber); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Vacheron Constantin</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--amber); margin-top: 6px;">vacheron-constantin.com</div>
+      </a>
+      <a class="site-card" href="https://www.alange-soehne.com" target="_blank" rel="noopener" style="--card-accent: var(--amber); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">A. Lange &amp; Söhne</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--amber); margin-top: 6px;">alange-soehne.com</div>
+      </a>
+      <a class="site-card" href="https://www.breguet.com" target="_blank" rel="noopener" style="--card-accent: var(--amber); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Breguet</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--amber); margin-top: 6px;">breguet.com</div>
+      </a>
+      <a class="site-card" href="https://www.blancpain.com" target="_blank" rel="noopener" style="--card-accent: var(--amber); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Blancpain</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--amber); margin-top: 6px;">blancpain.com</div>
+      </a>
+      <a class="site-card" href="https://www.piaget.com" target="_blank" rel="noopener" style="--card-accent: var(--amber); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Piaget</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--amber); margin-top: 6px;">piaget.com</div>
+      </a>
+      <a class="site-card" href="https://www.glashuette-original.com" target="_blank" rel="noopener" style="--card-accent: var(--amber); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Glashütte Original</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--amber); margin-top: 6px;">glashuette-original.com</div>
+      </a>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 18px;">
+    <h2 style="margin: 0; font-size: 19px; font-weight: 700; color: var(--text); display: flex; align-items: center; gap: 10px;"><span style="width:8px;height:8px;border-radius:999px;background:var(--violet);display:inline-block;"></span>Ultra lujo / independientes exclusivos</h2>
+    <div class="card-grid">
+      <a class="site-card" href="https://www.richardmille.com" target="_blank" rel="noopener" style="--card-accent: var(--violet); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Richard Mille</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--violet); margin-top: 6px;">richardmille.com</div>
+      </a>
+      <a class="site-card" href="https://www.jacobandco.com" target="_blank" rel="noopener" style="--card-accent: var(--violet); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Jacob &amp; Co.</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--violet); margin-top: 6px;">jacobandco.com</div>
+      </a>
+      <a class="site-card" href="https://www.fpjourne.com" target="_blank" rel="noopener" style="--card-accent: var(--violet); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">F.P. Journe</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--violet); margin-top: 6px;">fpjourne.com</div>
+      </a>
+      <a class="site-card" href="https://www.rogerdubuis.com" target="_blank" rel="noopener" style="--card-accent: var(--violet); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Roger Dubuis</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--violet); margin-top: 6px;">rogerdubuis.com</div>
+      </a>
+      <a class="site-card" href="https://www.greubelforsey.com" target="_blank" rel="noopener" style="--card-accent: var(--violet); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Greubel Forsey</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--violet); margin-top: 6px;">greubelforsey.com</div>
+      </a>
+      <a class="site-card" href="https://www.mbandf.com" target="_blank" rel="noopener" style="--card-accent: var(--violet); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">MB&amp;F</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--violet); margin-top: 6px;">mbandf.com</div>
+      </a>
+      <a class="site-card" href="https://www.urwerk.com" target="_blank" rel="noopener" style="--card-accent: var(--violet); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Urwerk</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--violet); margin-top: 6px;">urwerk.com</div>
+      </a>
+      <a class="site-card" href="https://www.h-moser.com" target="_blank" rel="noopener" style="--card-accent: var(--violet); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">H. Moser &amp; Cie</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--violet); margin-top: 6px;">h-moser.com</div>
+      </a>
+      <a class="site-card" href="https://www.debethune.ch" target="_blank" rel="noopener" style="--card-accent: var(--violet); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">De Bethune</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--violet); margin-top: 6px;">debethune.ch</div>
+      </a>
+      <a class="site-card" href="https://www.voutilainen.fi" target="_blank" rel="noopener" style="--card-accent: var(--violet); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Voutilainen</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--violet); margin-top: 6px;">voutilainen.fi</div>
+      </a>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 18px;">
+    <h2 style="margin: 0; font-size: 19px; font-weight: 700; color: var(--text); display: flex; align-items: center; gap: 10px;"><span style="width:8px;height:8px;border-radius:999px;background:var(--rose);display:inline-block;"></span>Otras con identidad propia</h2>
+    <div class="card-grid">
+      <a class="site-card" href="https://www.grand-seiko.com" target="_blank" rel="noopener" style="--card-accent: var(--rose); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Grand Seiko</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--rose); margin-top: 6px;">grand-seiko.com</div>
+      </a>
+      <a class="site-card" href="https://www.bulgari.com" target="_blank" rel="noopener" style="--card-accent: var(--rose); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Bulgari</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--rose); margin-top: 6px;">bulgari.com</div>
+      </a>
+      <a class="site-card" href="https://www.franckmuller.com" target="_blank" rel="noopener" style="--card-accent: var(--rose); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Franck Muller</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--rose); margin-top: 6px;">franckmuller.com</div>
+      </a>
+      <a class="site-card" href="https://www.corum-watches.com" target="_blank" rel="noopener" style="--card-accent: var(--rose); background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 18px;">
+        <div style="font-size: 15px; font-weight: 600; color: var(--text);">Corum</div>
+        <div class="url-mono" style="font-size: 11.5px; color: var(--rose); margin-top: 6px;">corum-watches.com</div>
+      </a>
+    </div>
+  </div>
+
+  <div style="border-top: 1px solid var(--border); padding-top: 20px; font-size: 12px; color: var(--text-faint);">
+    Sitio de prueba — despliegue vía GitHub Pages · URLs tal como fueron proporcionadas, sin verificación cruzada individual.
+  </div>
+
+</div>
+</body>
+</html>
